@@ -98,7 +98,7 @@
     transform: translateX(15px);
 }
 
-.color-orange {
+.color-oranges {
     background-color: var(--color-orange) !important;
 }
 
@@ -133,7 +133,7 @@
 
 /* header */
 .bg-img {
-    background-image: url(../imgaes/png/image\ 12.png);
+    background-image: url(../imgaes/png/header-bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -212,6 +212,78 @@
 
 .mb-100 {
     margin-bottom: 100px;
+}
+
+/***** contact *****/
+.bg-img-2 {
+    background-image: url(../imgaes/png/contact-section-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-line {
+    width: 30px;
+    height: 0;
+    border: 2px solid #E58E1A;
+}
+
+.max-w-730 {
+    max-width: 730px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.box {
+    max-width: 881px;
+    padding: 10px 12px;
+    border-bottom: 1px solid #E58E1A;
+}
+
+.big-box {
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.input-common-class {
+    height: 58px;
+    border-radius: 4px;
+    outline-color: lightgray;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--color-black-sheep);
+}
+
+.textarea {
+    height: 152px;
+    resize: none;
+    border-radius: 4px;
+    outline-color: lightgray;
+}
+
+.pb-126 {
+    padding-bottom: 126px;
+}
+
+.send-btn {
+    border-radius: 6px;
+    padding: 16px 24px;
+    background-color: var(--color-black-sheep);
 }
 
 @media (max-width:991.98px) {
@@ -299,6 +371,18 @@
         width: 20px !important;
         height: 20px !important;
     }
+
+    .gap-40 {
+        gap: 24px;
+    }
+
+    .big-box {
+        padding: 24px;
+    }
+
+    .pb-126 {
+        padding-bottom: 60px;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -381,5 +465,25 @@
     .nav-svg {
         width: 16px !important;
         height: 16px !important;
+    }
+
+    .gap-40 {
+        gap: 14px;
+    }
+
+    .font-size-14 {
+        font-size: 14px !important;
+    }
+
+    .lh-sm-22 {
+        line-height: 22px !important;
+    }
+
+    .big-box {
+        padding: 16px;
+    }
+
+    .pb-126 {
+        padding-bottom: 29px;
     }
 }
