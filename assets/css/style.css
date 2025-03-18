@@ -287,6 +287,47 @@ textarea::placeholder {
 }
 
 /***** footer *****/
+.pt-46 {
+    padding-top: 46px;
+}
+
+.max-w-367 {
+    max-width: 367px;
+}
+
+.mb-42 {
+    margin-bottom: 42px;
+}
+
+.pb-46 {
+    padding-bottom: 46px;
+}
+
+.footer-line {
+    border: 1px solid var(--color-white);
+    opacity: 20%;
+}
+
+.py-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.pl-16 {
+    padding-left: 16px;
+}
+
+.footer-link {
+    transition: all 200ms linear;
+}
+
+.footer-link:hover {
+    color: var(--color-orange) !important;
+}
+
+.pl-45{
+    padding-left: 45px;
+}
 
 @media (max-width:991.98px) {
     .nav-link {

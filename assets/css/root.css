@@ -47,6 +47,10 @@
     color: var(--color-black-sheep);
 }
 
+.bg-black-sheep {
+    background-color: var(--color-black-sheep);
+}
+
 /***** font-size *****/
 
 .fs-extra-small {
