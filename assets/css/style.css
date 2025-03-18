@@ -47,6 +47,12 @@
 .nav-btn {
     border-radius: 6px;
     padding: 13.5px 24px;
+    transition: all 200ms linear;
+}
+
+.nav-btn:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-orange) !important;
 }
 
 .navbar-link {
@@ -57,6 +63,7 @@
 
 .navbar-link:hover {
     color: var(--color-orange) !important;
+    font-weight: 600 !important;
 }
 
 .navbar-link::before {
@@ -126,6 +133,29 @@
     background-size: cover;
 }
 
+.explore-btn {
+    padding: 18px 25.5px;
+    border-radius: 6px;
+    transition: all 200ms linear;
+}
+
+.explore-btn:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-orange) !important;
+}
+
+.mt-222 {
+    margin-top: 222px;
+}
+
+.mb-199 {
+    margin-bottom: 199px;
+}
+
+.max-w-607 {
+    max-width: 607px;
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
@@ -145,6 +175,14 @@
     .show-navbar {
         right: 0 !important;
     }
+
+    .lh-43 {
+        line-height: normal;
+    }
+
+    .lh-34 {
+        line-height: normal;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -160,6 +198,10 @@
     .gap-24 {
         gap: 16px;
     }
+
+    .max-w-607 {
+        max-width: 332px;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -174,5 +216,9 @@
 
     .gap-24 {
         gap: 8px;
+    }
+
+    .max-w-607 {
+        max-width: 233px;
     }
 }
