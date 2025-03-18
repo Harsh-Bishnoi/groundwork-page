@@ -1,0 +1,52 @@
+:root {
+    /***** font-family *****/
+    --font-family-primary: "Inter", sans-serif;
+    /***** color *****/
+    --color-white: white;
+    --color-black: black;
+    --color-orange: #E58E1A;
+    /***** font-size *****/
+    --fs-sm: 15px;
+    --fs-md: 18px;
+    --fs-lg: 40px;
+    --fs-xl: 48px;
+}
+
+/***** font-family *****/
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+/***** color *****/
+.color-white {
+    color: var(--color-white);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-orange {
+    color: var(--color-orange);
+}
+
+.bg-orange {
+    background-color: var(--color-orange);
+}
+
+/***** font-size *****/
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
