@@ -282,7 +282,7 @@ textarea::placeholder {
 
 .send-btn {
     border-radius: 6px;
-    padding: 16px 24px;
+    padding: 15px 32px;
     background-color: var(--color-black-sheep);
 }
 
