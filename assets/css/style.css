@@ -5,16 +5,6 @@
     max-width: 1164px !important;
 }
 
-.menu-lines {
-    width: 30px;
-    height: 5px;
-    margin-bottom: 5px;
-    display: flex;
-    transition: all 300ms linear;
-    transform-origin: left;
-    border-radius: 10px;
-}
-
 .cursor-pointer {
     cursor: pointer;
 }
@@ -56,36 +46,17 @@
 }
 
 .navbar-link {
-    padding: 5px 0;
-    position: relative;
-    transition: all 0.3s ease-in-out;
+    transition: all 200ms linear;
 }
 
 .navbar-link:hover {
     color: var(--color-orange) !important;
-    font-weight: 600 !important;
-}
-
-.navbar-link::before {
-    content: '';
-    background: var(--color-orange);
-    position: absolute;
-    bottom: 0px;
-    width: 0;
-    height: 2px;
-    transition: all 0.3s ease-in-out;
-}
-
-.navbar-link:hover::before {
-    width: 100%;
 }
 
 .nav-circle {
     width: 41px;
     height: 41px;
-    gap: 16px;
     border-radius: 6px;
-    padding: 8px;
     background: #FFFFFF33;
 }
 
@@ -93,8 +64,42 @@
     background-color: #0E0E0E4D;
 }
 
-.gap-24 {
-    gap: 24px;
+.gap-16 {
+    gap: 16px;
+}
+
+.cross-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: #FFFFFF33;
+}
+
+.common-class {
+    height: 5px;
+    margin-bottom: 5px;
+    background-color: white !important;
+    transition: all 300ms linear;
+    border-radius: 10px;
+    z-index: 10;
+    display: flex;
+}
+
+.menu-lines-1 {
+    width: 15px;
+}
+
+.menu-lines-2 {
+    width: 30px;
+}
+
+.menu-lines-3 {
+    width: 15px;
+    transform: translateX(15px);
+}
+
+.color-orange {
+    background-color: var(--color-orange) !important;
 }
 
 /***** line height *****/
@@ -131,6 +136,7 @@
     background-image: url(../imgaes/png/image\ 12.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .explore-btn {
@@ -154,6 +160,58 @@
 
 .max-w-607 {
     max-width: 607px;
+}
+
+.mb-148 {
+    margin-bottom: 148px;
+}
+
+/***** About Us *****/
+.about-line {
+    width: 30px;
+    height: 0px;
+    border: 2px solid var(--color-black-sheep);
+}
+
+.max-w-540 {
+    max-width: 540px !important;
+}
+
+.pt-100 {
+    padding-top: 100px !important;
+}
+
+
+.max-w-445 {
+    max-width: 445px;
+}
+
+.h-316 {
+    height: 316px;
+}
+
+.max-w-690 {
+    max-width: 690px;
+}
+
+.h-266 {
+    height: 266px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.max-w-398 {
+    max-width: 398px;
+}
+
+.h-605 {
+    height: 605px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
 }
 
 @media (max-width:991.98px) {
@@ -192,15 +250,54 @@
 
     .nav-btn {
         border-radius: 6px;
-        padding: 10px 1px;
-    }
-
-    .gap-24 {
-        gap: 16px;
+        padding: 11.5px 16.5px;
     }
 
     .max-w-607 {
         max-width: 332px;
+    }
+
+    .max-w-540 {
+        max-width: 654px !important;
+    }
+
+    .py-40 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .mt-222 {
+        margin-top: 97px;
+    }
+
+    .mb-199 {
+        margin-bottom: 101px;
+    }
+
+    .mb-148 {
+        margin-bottom: 30px;
+    }
+
+    .pt-100 {
+        padding-top: 50px !important;
+    }
+
+    .max-w-398 {
+        max-width: 230px;
+    }
+
+    .h-605 {
+        height: 350px !important;
+    }
+
+    .nav-circle {
+        width: 36px;
+        height: 36px;
+    }
+
+    .nav-svg {
+        width: 20px !important;
+        height: 20px !important;
     }
 }
 
@@ -211,14 +308,78 @@
 
     .nav-btn {
         border-radius: 6px;
-        padding: 6px 12px;
+        padding: 7.5px 13px;
     }
 
-    .gap-24 {
-        gap: 8px;
+    .mt-222 {
+        margin-top: 66px;
+    }
+
+    .mb-199 {
+        margin-bottom: 65px;
+    }
+
+    .py-40 {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .mb-148 {
+        margin-bottom: 16px;
     }
 
     .max-w-607 {
         max-width: 233px;
+    }
+
+    .lh-26 {
+        line-height: 18px;
+    }
+
+    .max-w-540 {
+        max-width: 343px;
+    }
+
+    .pt-100 {
+        padding-top: 30px !important;
+    }
+
+    .max-w-445 {
+        max-width: 267px;
+    }
+
+    .h-316 {
+        height: 179px;
+    }
+
+    .cross-circle,
+    .nav-circle {
+        width: 28px !important;
+        height: 28px !important;
+    }
+
+    .gap-16 {
+        gap: 8px !important;
+    }
+
+    .menu-lines-1 {
+        width: 7px !important;
+        height: 2px !important;
+    }
+
+    .menu-lines-2 {
+        width: 10px !important;
+        height: 2px !important;
+    }
+
+    .menu-lines-3 {
+        width: 7px !important;
+        height: 2px !important;
+        transform: translateX(3px) !important;
+    }
+
+    .nav-svg {
+        width: 16px !important;
+        height: 16px !important;
     }
 }

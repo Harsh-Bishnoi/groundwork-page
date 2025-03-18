@@ -5,6 +5,7 @@
     --color-white: white;
     --color-black: black;
     --color-orange: #E58E1A;
+    --color-black-sheep: #0E0E0E;
     /***** font-size *****/
     --fs-extra-small: 15px;
     --fs-sm: 16px;
@@ -40,6 +41,10 @@
 
 .bg-black {
     background-color: var(--color-black);
+}
+
+.color-black-sheep {
+    color: var(--color-black-sheep);
 }
 
 /***** font-size *****/
@@ -82,6 +87,7 @@
         --fs-3xl: 32px;
         --fs-lg: 20px;
         --fs-base: 16px;
+        --fs-sm: 14px;
     }
 }
 
@@ -89,5 +95,9 @@
     :root {
         --fs-3xl: 24px;
         --fs-lg: 14px;
+        --fs-xl: 24px;
+        --fs-2xl: 32px;
+        --fs-base: 12px;
+        --fs-sm: 12px;
     }
 }
