@@ -342,7 +342,7 @@
 }
 
 .box {
-    max-width: 881px;
+    max-width: 892px;
     padding: 10px 12px;
     border-bottom: 1px solid #E58E1A;
 }
@@ -622,6 +622,10 @@ textarea::placeholder {
 
     .big-box {
         max-width: 638px;
+    }
+
+    .box {
+        max-width: 456px;
     }
 }
 
