@@ -710,6 +710,10 @@ textarea::placeholder {
         max-height: 90px;
     }
 
+    .max-h-477{
+        max-height: 160px;
+    }
+
     .mb-32 {
         margin-bottom: 16px;
     }
