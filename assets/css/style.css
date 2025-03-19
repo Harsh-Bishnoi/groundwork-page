@@ -140,6 +140,10 @@
     background-position: center;
 }
 
+.mb-16 {
+    margin-bottom: 16px !important;
+}
+
 .explore-btn {
     padding: 18px 25.5px;
     border-radius: 6px;
@@ -169,6 +173,37 @@
 
 .mb-148 {
     margin-bottom: 148px;
+}
+
+/***** Grondwerken Pieters *****/
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.max-w-390 {
+    max-width: 390px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.common {
+    text-align: right;
+}
+
+.explore-btn-2 {
+    padding: 14px 23.5px;
+    border-radius: 6px;
+}
+
+.explore-btn-2:hover {
+    background-color: var(--color-white);
+    color: var(--color-orange) !important;
+
+    svg path {
+        stroke: var(--color-orange);
+    }
 }
 
 /***** About Us *****/
@@ -267,10 +302,6 @@
 
 .max-h-477 {
     max-height: 477px;
-}
-
-.gap_32 {
-    gap: 32px;
 }
 
 /***** contact *****/
@@ -557,7 +588,7 @@ textarea::placeholder {
         max-width: 217px !important;
     }
 
-    .gap_32 {
+    .gap-32 {
         gap: 16px !important;
     }
 
@@ -572,11 +603,19 @@ textarea::placeholder {
     .max-h-266 {
         height: 286px;
     }
+
+    .mb-16 {
+        margin-bottom: 10px !important;
+    }
 }
 
 @media (max-width:575.98px) {
     .logo {
         max-width: 94px !important;
+    }
+
+    .mb-16 {
+        margin-bottom: 8px !important;
     }
 
     .nav-btn {
@@ -706,7 +745,7 @@ textarea::placeholder {
         max-width: 109px !important;
     }
 
-    .gap_32 {
+    .gap-32 {
         gap: 8px !important;
     }
 
