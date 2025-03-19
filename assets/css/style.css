@@ -492,6 +492,14 @@ textarea::placeholder {
     }
 }
 
+.text {
+    left: 5%;
+}
+
+.text-2 {
+    right: 5%;
+}
+
 @media (min-width:768px) {
     .section-2-card:hover .text {
         display: block !important;
@@ -517,18 +525,6 @@ textarea::placeholder {
         max-width: 794px !important;
     }
 }
-
-/* @media (max-width:1199.98px) {
-    .truck-img {}
-
-    .jcb-img {}
-}
-
-@media (max-width:1199.98px) {
-    .truck-img {}
-
-    .jcb-img {}
-} */
 
 @media (max-width:991.98px) {
     .nav-link {
