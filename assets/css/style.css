@@ -171,13 +171,57 @@
     max-width: 607px;
 }
 
-.mb-148 {
-    margin-bottom: 148px;
+/***** Grondwerken Pieters *****/
+.pb-80 {
+    padding-bottom: 80px;
 }
 
-/***** Grondwerken Pieters *****/
-.mb-80 {
-    margin-bottom: 80px;
+.pt-148 {
+    padding-top: 148px;
+}
+
+.h-863 {
+    height: 863px;
+}
+
+.truck-img {
+    left: 0%;
+    max-width: 635px;
+    max-height: 627px;
+    filter: grayscale(100%);
+    opacity: 50%;
+    transition: all 200ms linear;
+}
+
+.section-2-card:hover .truck-img {
+    filter: grayscale(0%);
+    opacity: 100%;
+}
+
+.section-2-card {
+    transition: all 200ms linear !important;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.jcb-img {
+    right: 0%;
+    max-width: 635px;
+    max-height: 627px;
+    filter: grayscale(100%);
+    transition: all 200ms linear;
+    opacity: 50%;
+}
+
+
+
+.section-2-card:hover .jcb-img {
+    filter: grayscale(0%);
+    opacity: 100%;
 }
 
 .max-w-390 {
@@ -448,6 +492,44 @@ textarea::placeholder {
     }
 }
 
+@media (min-width:768px) {
+    .section-2-card:hover .text {
+        display: block !important;
+    }
+
+    .section-2-card:hover .text-2 {
+        display: block !important;
+    }
+}
+
+@media (max-width:1145.98px) {
+    .truck-img {
+        max-width: 450px;
+        max-height: 450px;
+    }
+
+    .jcb-img {
+        max-width: 450px;
+        max-height: 450px;
+    }
+
+    .max-w-669 {
+        max-width: 794px !important;
+    }
+}
+
+/* @media (max-width:1199.98px) {
+    .truck-img {}
+
+    .jcb-img {}
+}
+
+@media (max-width:1199.98px) {
+    .truck-img {}
+
+    .jcb-img {}
+} */
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
@@ -491,6 +573,20 @@ textarea::placeholder {
     .mt-51 {
         margin-top: 0px !important;
     }
+
+    .truck-img {
+        max-width: 381px;
+        max-height: 376px;
+    }
+
+    .jcb-img {
+        max-width: 380px;
+        max-height: 376px;
+    }
+
+    .max-w-669 {
+        max-width: 672px !important;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -524,8 +620,8 @@ textarea::placeholder {
         margin-bottom: 101px;
     }
 
-    .mb-148 {
-        margin-bottom: 30px;
+    .pt-148 {
+        padding-top: 30px;
     }
 
     .pt-100 {
@@ -627,6 +723,28 @@ textarea::placeholder {
     .box {
         max-width: 456px;
     }
+
+    .truck-img {
+        max-width: 250px;
+        max-height: 375px;
+    }
+
+    .h-863 {
+        height: 441px;
+    }
+
+    .jcb-img {
+        max-width: 250px;
+        max-height: 375px;
+    }
+
+    .max-w-669 {
+        max-width: 443px;
+    }
+
+    .pb-80 {
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -664,8 +782,8 @@ textarea::placeholder {
         padding-bottom: 8px;
     }
 
-    .mb-148 {
-        margin-bottom: 16px;
+    .pt-148 {
+        padding-top: 16px;
     }
 
     .max-w-607 {
@@ -807,6 +925,29 @@ textarea::placeholder {
 
     .max-h-316 {
         max-height: 189px;
+    }
+
+    .truck-img {
+        max-width: 191px;
+        max-height: 188px;
+    }
+
+    .jcb-img {
+        right: 0;
+        max-width: 188px;
+        max-height: 188px;
+    }
+
+    .max-w-669 {
+        max-width: 339px;
+    }
+
+    .pb-80 {
+        padding-bottom: 16px;
+    }
+
+    .h-863 {
+        height: 223px;
     }
 }
 
