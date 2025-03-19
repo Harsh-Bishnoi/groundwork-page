@@ -51,6 +51,7 @@
 
 .navbar-link:hover {
     color: var(--color-orange) !important;
+    -webkit-text-stroke: 1px var(--color-orange) !important;
 }
 
 .nav-circle {
@@ -148,6 +149,10 @@
 .explore-btn:hover {
     background-color: var(--color-white) !important;
     color: var(--color-orange) !important;
+
+    svg path {
+        stroke: var(--color-orange);
+    }
 }
 
 .mt-222 {
@@ -284,6 +289,16 @@ textarea::placeholder {
     border-radius: 6px;
     padding: 15px 32px;
     background-color: var(--color-black-sheep);
+    transition: all 200ms linear;
+}
+
+.send-btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-black-sheep) !important;
+
+    svg path {
+        stroke: var(--color-black-sheep);
+    }
 }
 
 /***** footer *****/
@@ -313,20 +328,35 @@ textarea::placeholder {
     padding-bottom: 32px;
 }
 
-.pl-16 {
-    padding-left: 16px;
+.footer-icons {
+    transition: all 200ms linear;
+}
+
+.footer-icons:hover {
+    transform: scale(1.1);
 }
 
 .footer-link {
     transition: all 200ms linear;
 }
 
-.footer-link:hover {
-    color: var(--color-orange) !important;
+.footer-link-2 {
+    transition: all 200ms linear;
+    width: max-content;
 }
 
-.pl-45{
-    padding-left: 45px;
+.footer-link:hover {
+    color: var(--color-orange) !important;
+    -webkit-text-stroke: 1px var(--color-orange) !important;
+}
+
+.footer-link-2:hover {
+    color: var(--color-orange) !important;
+    -webkit-text-stroke: 1px var(--color-orange) !important;
+
+    svg path {
+        fill: var(--color-orange) !important;
+    }
 }
 
 @media (max-width:991.98px) {
@@ -355,6 +385,10 @@ textarea::placeholder {
 
     .lh-34 {
         line-height: normal;
+    }
+
+    .mb-42 {
+        margin-bottom: 0 !important;
     }
 }
 
@@ -425,6 +459,19 @@ textarea::placeholder {
 
     .pb-126 {
         padding-bottom: 60px;
+    }
+
+    .pt-46 {
+        padding-top: 30px;
+    }
+
+    .pb-46 {
+        padding-bottom: 41px;
+    }
+
+    .py-32 {
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 }
 
@@ -528,5 +575,22 @@ textarea::placeholder {
 
     .pb-126 {
         padding-bottom: 29px;
+    }
+
+    .mb-42 {
+        margin-bottom: 16px !important;
+    }
+
+    .pb-46 {
+        padding-bottom: 24px;
+    }
+
+    .py-32 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .pt-46 {
+        padding-top: 21px;
     }
 }
