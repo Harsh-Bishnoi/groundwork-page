@@ -105,7 +105,7 @@
 
 /***** line height *****/
 .lh-21 {
-    line-height: 21px;
+    line-height: 21px !important;
 }
 
 .lh-22 {
@@ -319,6 +319,10 @@
 
 .max-w-730 {
     max-width: 730px;
+}
+
+.fs-18 {
+    font-size: 18px;
 }
 
 .mb-30 {
@@ -558,6 +562,10 @@ textarea::placeholder {
         padding-bottom: 60px;
     }
 
+    .max-w-730 {
+        max-width: 624px;
+    }
+
     .pt-46 {
         padding-top: 30px;
     }
@@ -607,11 +615,27 @@ textarea::placeholder {
     .mb-16 {
         margin-bottom: 10px !important;
     }
+
+    .max-w-590 {
+        max-width: 590px;
+    }
+
+    .big-box {
+        max-width: 638px;
+    }
 }
 
 @media (max-width:575.98px) {
     .logo {
         max-width: 94px !important;
+    }
+
+    .fs-18 {
+        font-size: 12px;
+    }
+
+    .max-w-730 {
+        max-width: 333px;
     }
 
     .mb-16 {
