@@ -178,6 +178,10 @@
     border: 2px solid var(--color-black-sheep);
 }
 
+.mt-51 {
+    margin-top: 51px !important;
+}
+
 .max-w-540 {
     max-width: 540px !important;
 }
@@ -191,7 +195,7 @@
     max-width: 445px;
 }
 
-.h-316 {
+.max-h-316 {
     height: 316px;
 }
 
@@ -199,7 +203,7 @@
     max-width: 690px;
 }
 
-.h-266 {
+.max-h-266 {
     height: 266px;
 }
 
@@ -440,6 +444,18 @@ textarea::placeholder {
     .mb-42 {
         margin-bottom: 0 !important;
     }
+
+    .w_100 {
+        width: 100%;
+    }
+
+    .max-w-690 {
+        max-width: none;
+    }
+
+    .mt-51 {
+        margin-top: 0px !important;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -457,7 +473,7 @@ textarea::placeholder {
     }
 
     .max-w-540 {
-        max-width: 654px !important;
+        max-width: 584px !important;
     }
 
     .py-40 {
@@ -552,6 +568,10 @@ textarea::placeholder {
     .mb-32 {
         margin-bottom: 24px;
     }
+
+    .max-h-266 {
+        height: 286px;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -590,7 +610,7 @@ textarea::placeholder {
     }
 
     .max-w-540 {
-        max-width: 343px;
+        max-width: 343px !important;
     }
 
     .pt-100 {
@@ -599,10 +619,6 @@ textarea::placeholder {
 
     .max-w-445 {
         max-width: 267px;
-    }
-
-    .h-316 {
-        height: 179px;
     }
 
     .cross-circle,
@@ -710,12 +726,20 @@ textarea::placeholder {
         max-height: 90px;
     }
 
-    .max-h-477{
+    .max-h-477 {
         max-height: 160px;
     }
 
     .mb-32 {
         margin-bottom: 16px;
+    }
+
+    .max-h-266 {
+        height: 144px;
+    }
+
+    .max-h-316 {
+        max-height: 189px;
     }
 }
 
