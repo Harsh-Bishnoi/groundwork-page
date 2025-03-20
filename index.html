@@ -17,41 +17,41 @@
 
 <body>
     <!--***** header *****-->
-    <header class="d-flex justify-content-center align-items-center flex-column bg-img position-relative">
-        <div class="overlay w-100 h-100 position-absolute opacity-50 bg-black"></div>
-        <nav class="py-40 w-100 nav-bg-color">
+    <header class="d-flex flex-column align-items-center bg-img justify-content-center position-relative">
+        <div class="bg-black h-100 position-absolute w-100 opacity-50 overlay"></div>
+        <nav class="nav-bg-color w-100 py-40">
             <div class="container max-w-1140">
                 <div class="d-flex align-items-center justify-content-between w-100">
                     <a class="z-6" href=""><img class="logo" src="./assets/imgaes/svg/nav-logo.svg" alt=""></a>
                     <ul id="name"
-                        class="d-flex mb-0 align-items-center nav-link list-unstyled justify-content-center justify-content-lg-between w-100">
+                        class="d-flex list-unstyled nav-link align-items-center justify-content-center justify-content-lg-between w-100 mb-0">
                         <li>
                             <a href="#">
                                 <img class="d-none" src="./assets/imgaes/svg/nav-logo.svg" alt="nav-logo"></a>
                         </li>
                         <li>
                             <ul
-                                class="d-flex mb-0 align-items-center z-1 position-relative gap-32 list-unstyled justify-content-center flex-column flex-lg-row">
-                                <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                class="d-flex flex-column flex-lg-row list-unstyled align-items-center justify-content-center position-relative gap-32 mb-0 z-1">
+                                <li><a class="navbar-link text-decoration-none text-white font-family-primary fs-sm fw-normal lh-100"
                                         href="/">Home</a>
                                 </li>
-                                <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                <li><a class="navbar-link text-decoration-none text-white font-family-primary fs-sm fw-normal lh-100"
                                         href="/">Groundwork</a>
                                 </li>
-                                <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                <li><a class="navbar-link text-decoration-none text-white font-family-primary fs-sm fw-normal lh-100"
                                         href="/">Transport</a></li>
-                                <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                <li><a class="navbar-link text-decoration-none text-white font-family-primary fs-sm fw-normal lh-100"
                                         href="/">About</a>
                                 </li>
-                                <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                <li><a class="navbar-link text-decoration-none text-white font-family-primary fs-sm fw-normal lh-100"
                                         href="/">Contact</a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="z-1 d-none d-lg-block">
-                            <ul class="d-flex list-unstyled flex-column flex-lg-row mb-0 align-items-center gap-4">
+                        <li class="d-lg-block d-none z-1">
+                            <ul class="d-flex flex-column flex-lg-row list-unstyled align-items-center gap-4 mb-0">
                                 <li>
-                                    <a class="nav-circle d-flex justify-content-center align-items-center mt-4 mt-lg-0"
+                                    <a class="d-flex nav-circle align-items-center justify-content-center mt-4 mt-lg-0"
                                         href="">
                                         <svg class="nav-svg" width="25" height="25" viewBox="0 0 25 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -72,16 +72,16 @@
                                 </li>
                                 <li class="d-flex align-items-center justify-content-center">
                                     <button
-                                        class="nav-btn font-family-primary fs-sm lh-100 text-white fw-semibold bg-orange border-0">Free
+                                        class="nav-btn bg-orange border-0 text-white font-family-primary fs-sm fw-semibold lh-100">Free
                                         Quote</button>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                     <div class="d-flex align-items-center justify-content-center gap-16">
-                        <ul class="d-flex list-unstyled mb-0 d-lg-none z-1 gap-16 align-items-center">
+                        <ul class="d-flex d-lg-none list-unstyled align-items-center gap-16 mb-0 z-1">
                             <li class="d-flex align-items-center justify-content-center mt-lg-0">
-                                <a class="nav-circle d-flex justify-content-center align-items-center" href="">
+                                <a class="d-flex nav-circle align-items-center justify-content-center" href="">
                                     <svg class="nav-svg" width="25" height="25" viewBox="0 0 25 25" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -101,25 +101,25 @@
                             </li>
                             <li>
                                 <button
-                                    class="nav-btn font-family-primary fs-sm lh-100 ml -24 text-white fw-semibold bg-orange border-0">Free
+                                    class="nav-btn bg-orange border-0 text-white -24 font-family-primary fs-sm fw-semibold lh-100 ml">Free
                                     Quote</button>
                             </li>
                         </ul>
                         <div onclick="navbarbtn()"
-                            class="z-5 d-lg-none cursor-pointer cross-circle d-flex justify-content-center align-items-center">
+                            class="d-flex d-lg-none align-items-center justify-content-center cross-circle cursor-pointer z-5">
                             <div>
-                                <span class="menu-lines-1 common-class" id="rotates"></span>
-                                <span class="menu-lines-2 common-class" id="transparent"></span>
-                                <span class="menu-lines-3 common-class" id="rotates-2"></span>
+                                <span class="common-class menu-lines-1" id="rotates"></span>
+                                <span class="common-class menu-lines-2" id="transparent"></span>
+                                <span class="common-class menu-lines-3" id="rotates-2"></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
-        <div class="container max-w-1140 mt-222 mb-199 z-1">
-            <h1 class="font-famiy-primary fw-bold lh-43 text-white mb-16 fs-3xl">Grondwerken Pieters</h1>
-            <p class="font-famiy-primary fw-normal lh-34 text-white mb-3 mb-md-4 fs-lg max-w-607">Your Trusted Partner
+        <div class="container max-w-1140 mb-199 mt-222 z-1">
+            <h1 class="text-white font-famiy-primary fs-3xl fw-bold lh-43 mb-16">Grondwerken Pieters</h1>
+            <p class="text-white font-famiy-primary fs-lg fw-normal lh-34 max-w-607 mb-3 mb-md-4">Your Trusted Partner
                 in Earthworks and Excavations</p>
             <button class="explore-btn d-flex justify-content-center align-items-center fs-base gap-3 font-family-primary fw-semibold lh-100 text-white bg-orange
                  border-0">Explore Groundwerken
@@ -135,48 +135,61 @@
         </div>
     </header>
     <!--***** Grondwerken Pieters *****-->
-    <section class="pb-80 pt-148 h-863">
+    <section class="h-863 pb-80 pt-148">
         <div class="container max-w-1140">
-            <div class="position-relative h-100 w-100 max-w-669 mx-auto">
-                <div class="section-2-card position-relative h-100 w-100 cursor-pointer">
-                    <img class="truck-img position-absolute w-100" src="./assets/imgaes/png/section-2-img-1.png" alt="">
-                    <div class="position-absolute text d-none ">
-                        <h2 class="font-family-primary fw-bold fs-md lh-28 max-w-390 mb-12 text-white">Grondwerken
-                            Pieters – Precision Earthworks & Excavations</h2>
-                        <p class="font-family-primary fw-normal fs-extra-small lh-22 mb-4 text-white">Building
-                            Foundations, Moving Futures.</p>
-                        <button
-                            class="explore-btn-2 font-family-primary fw-semibold fs-base lh-100 text-white bg-orange border-0 gap-1 gap-sm-2 d-flex">Explore
-                            Groundwork <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.2002 10.6L10.8002 1" stroke="white" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M10.8002 6.6V1H5.2002" stroke="white" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg >
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div class="section-2-card position-relative h-100 w-100 cursor-pointer">
-                    <img class="jcb-img position-absolute w-100" src="./assets/imgaes/png/section-2-img-2.png" alt="">
-                    <div class="position-absolute text-2 d-none">
-                        <h2 class="common font-family-primary fw-bold fs-md lh-28 max-w-390 mb-12 text-white">
-                            Grondwerken Pieters – Precision Earthworks & Excavations</h2>
-                        <p class="common font-family-primary fw-normal fs-extra-small lh-22 mb-4 text-white">Building
-                            Foundations, Moving Futures.</p>
-                        <div class="d-flex justify-content-end">
-                            <button
-                                class="explore-btn-2 font-family-primary fw-semibold fs-base lh-100 text-white bg-orange border-0 gap-2 d-flex">Explore
-                                Groundwork <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.2002 10.6L10.8002 1" stroke="white" stroke-width="1.5"
-                                            stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M10.8002 6.6V1H5.2002" stroke="white" stroke-width="1.5"
-                                            stroke-linecap="round" stroke-linejoin="round" />
+            <div class="h-100 position-relative w-100 max-w-669 mx-auto">
+                <div class="h-100 position-relative w-100 cursor-pointer section-2-card-1">
+                    <img class="position-absolute w-100 truck-img" src="./assets/imgaes/png/section-2-img-1.png"
+                        alt="section-2-truck">
+                    <div class="d-lg-block d-none">
+                        <div class="position-absolute text">
+                            <p class="text-white font-family-primary fs-md fw-bold lh-28 max-w-390 mb-12">
+                                Grondwerken Pieters – Precision Earthworks & Excavations</p>
+                            <p class="text-white font-family-primary fs-extra-small fw-normal lh-22 mb-4">Building Foundations, Moving Futures.</p>
+                            <button type="button"
+                                class="d-flex bg-orange border-0 text-white explore-btn-2 font-family-primary fs-base fw-semibold gap-1 gap-sm-2 lh-100">Explore
+                                Groundwerken
+                                <span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.2002 10.6L10.8002 1" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M10.8002 6.6V1H5.2002" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
                                     </svg>
                                 </span>
                             </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-100 position-relative w-100 cursor-pointer section-2-card-2">
+                    <img class="position-absolute w-100 jcb-img" src="./assets/imgaes/png/section-2-img-2.png" alt="section-2-truck">
+                    <div class="d-lg-block d-none">
+                        <div class="position-absolute text-2">
+                            <div class="d-flex justify-content-end">
+                                <div>
+                                    <p class="text-white common font-family-primary fs-md fw-bold lh-28 max-w-390 mb-12">
+                                        Grondwerken
+                                        Pieters – Precision Earthworks & Excavations</p>
+                                    <p class="text-white common font-family-primary fs-extra-small fw-normal lh-22 mb-4">Building Foundations,
+                                        Moving
+                                        Futures.</p>
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button"
+                                            class="d-flex bg-orange border-0 text-white explore-btn-2 font-family-primary fs-base fw-semibold gap-2 lh-100">Explore
+                                            Groundwerken
+                                            <span>
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.2002 10.6L10.8002 1" stroke="white" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M10.8002 6.6V1H5.2002" stroke="white" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -184,21 +197,21 @@
         </div>
     </section>
     <!--***** About Us *****-->
-    <section class="d-flex justify-content-center align-items-center bg-orange position-relative overflow-hidden">
+    <section class="d-flex align-items-center bg-orange justify-content-center position-relative overflow-hidden">
         <img src="./assets/imgaes/png/about-section-layer.png" alt=""
-            class="position-absolute left-0 w-100 top-0 max-w-398 h-605">
+            class="h-605 position-absolute w-100 left-0 max-w-398 top-0">
         <div class="container max-w-1140 z-1">
             <div class="row pt-100">
-                <div class="col-lg-6 col-12 mb-3 mb-lg-0">
-                    <div class="d-flex align-items-center gap-3 mb-sm-4 mb-3">
+                <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                    <div class="d-flex align-items-center gap-3 mb-3 mb-sm-4">
                         <div class="about-line"></div>
-                        <h2 class="font-family-primary fw-bold fs-xl lh-43 color-black-sheep mb-0">About Us</h2>
+                        <h2 class="color-black-sheep font-family-primary fs-xl fw-bold lh-43 mb-0">About Us</h2>
                     </div>
-                    <p class="font-family-primary fw-bold fs-2xl lh-100 text-white max-w-540 mb-0">Over 10 Years of <br>
+                    <p class="text-white font-family-primary fs-2xl fw-bold lh-100 max-w-540 mb-0">Over 10 Years of <br>
                         Experience in Earthworks</p>
                 </div>
-                <div class="col-lg-6 col-12 mb-4 mb-sm-5 mb-lg-0 ">
-                    <p class="font-family-primary fw-medium fs-base lh-26 text-white max-w-540 mb-0">Grondwerken Pieters
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0 mb-sm-5">
+                    <p class="text-white font-family-primary fs-base fw-medium lh-26 max-w-540 mb-0">Grondwerken Pieters
                         is a
                         family-owned business, passionately run by the Pieters family. We strive to deliver the best
                         results for our clients, with a strong focus on quality and a personal approach. Our modern
@@ -208,101 +221,101 @@
                 </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start">
-                    <img src="./assets/imgaes/png/about-section-img-1.png" alt="" class="w-100 max-w-445 max-h-316">
+                <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
+                    <img src="./assets/imgaes/png/about-section-img-1.png" alt="" class="w-100 max-h-316 max-w-445">
                 </div>
-                <div class="col-lg-6 col-12 p-0 mt-51">
-                    <img src="./assets/imgaes/png/about-section-img-2.png" alt="" class="w_100 max-w-690 max-h-266">
+                <div class="col-12 col-lg-6 p-0 mt-51">
+                    <img src="./assets/imgaes/png/about-section-img-2.png" alt="" class="max-h-266 max-w-690 w_100">
                 </div>
             </div>
         </div>
     </section>
     <!--***** Our Gallery *****-->
-    <section class="d-flex justify-content-center align-items-center pt-100 position-relative pb-100">
-        <div class="square-box position-absolute top-0"></div>
+    <section class="d-flex align-items-center justify-content-center position-relative pb-100 pt-100">
+        <div class="position-absolute square-box top-0"></div>
         <div class="container max-w-1140">
             <div class="d-flex align-items-center gap-3 mb-32">
                 <div class="our-line"></div>
-                <h2 class="font-family-primary fw-bold fs-xl lh-43 color-orange mb-0">Our Gallery</h2>
+                <h2 class="color-orange font-family-primary fs-xl fw-bold lh-43 mb-0">Our Gallery</h2>
             </div>
-            <div class="d-flex gap-32 z-1 position-relative ">
+            <div class="d-flex position-relative gap-32 z-1">
                 <div class="d-flex flex-column">
-                    <img class="w-100 h-100 max-w-290 max-h-320 mb_32" src="./assets/imgaes/png/grid-img-1.png"
+                    <img class="h-100 w-100 max-h-320 max-w-290 mb_32" src="./assets/imgaes/png/grid-img-1.png"
                         alt="grid-img-1">
-                    <img class="w-100 h-100 max-w-290 max-h-407" src="./assets/imgaes/png/grid-img-2.png"
+                    <img class="h-100 w-100 max-h-407 max-w-290" src="./assets/imgaes/png/grid-img-2.png"
                         alt="grid-img-2">
                 </div>
                 <div class="d-flex flex-column">
-                    <img class="w-100 h-100 max-w-496 max-h-407 mb_32" src="./assets/imgaes/png/grid-img-3.png"
+                    <img class="h-100 w-100 max-h-407 max-w-496 mb_32" src="./assets/imgaes/png/grid-img-3.png"
                         alt="grid-img-3">
 
-                    <img class="w-100 h-100 max-w-496 max-h-320" src="./assets/imgaes/png/grid-img-4.png"
+                    <img class="h-100 w-100 max-h-320 max-w-496" src="./assets/imgaes/png/grid-img-4.png"
                         alt="grid-img-4">
 
                 </div>
                 <div class="d-flex flex-column">
-                    <img class="w-100 h-100 max-w-290 max-h-250 mb_32" src="./assets/imgaes/png/grid-img-5.png"
+                    <img class="h-100 w-100 max-h-250 max-w-290 mb_32" src="./assets/imgaes/png/grid-img-5.png"
                         alt="grid-img-5">
-                    <img class="w-100 h-100 max-w-290 max-h-477" src="./assets/imgaes/png/grid-img-6.png"
+                    <img class="h-100 w-100 max-h-477 max-w-290" src="./assets/imgaes/png/grid-img-6.png"
                         alt="grid-img-6">
                 </div>
             </div>
         </div>
     </section>
     <!--***** contact *****-->
-    <section class="d-flex justify-content-center align-items-center bg-img-2 pb-126 pt-100">
+    <section class="d-flex align-items-center bg-img-2 justify-content-center pb-126 pt-100">
         <div class="container max-w-1140">
-            <div class="d-flex align-items-center gap-3 justify-content-center mb-4">
+            <div class="d-flex align-items-center justify-content-center gap-3 mb-4">
                 <div class="contact-line"></div>
-                <h2 class="font-family-primary fw-bold fs-xl lh-43 color-orange mb-0">Contact Us</h2>
+                <h2 class="color-orange font-family-primary fs-xl fw-bold lh-43 mb-0">Contact Us</h2>
                 <div class="contact-line"></div>
             </div>
             <div class="d-flex justify-content-center mb-30">
-                <p class="font-family-primary fw-normal fs-18 lh-26 text-center text-white max-w-730 mb-0">Do you have
+                <p class="text-center text-white font-family-primary fs-18 fw-normal lh-26 max-w-730 mb-0">Do you have
                     a question or would you like to request a quote? Contact us using the details below. Our team
                     is ready to assist you and provide free advice on your project.</p>
             </div>
-            <div class="box mb-60 d-flex gap-40 justify-content-center align-items-center flex-wrap mx-auto">
-                <div class="d-flex gap-10 justify-content-center align-items-center">
+            <div class="d-flex flex-wrap align-items-center justify-content-center box gap-40 mb-60 mx-auto">
+                <div class="d-flex align-items-center justify-content-center gap-10">
                     <img src="./assets/imgaes/svg/correct-img.svg" alt="verify-icon">
-                    <p class="font-family-primary fw-normal fs-base lh-26 color-orange mb-0">Professional Staff</p>
+                    <p class="color-orange font-family-primary fs-base fw-normal lh-26 mb-0">Professional Staff</p>
                 </div>
-                <div class="d-flex gap-10 justify-content-center align-items-center">
+                <div class="d-flex align-items-center justify-content-center gap-10">
                     <img src="./assets/imgaes/svg/correct-img.svg" alt="verify-icon">
-                    <p class="font-family-primary fw-normal fs-base lh-26 color-orange mb-0">100% Satisfaction</p>
+                    <p class="color-orange font-family-primary fs-base fw-normal lh-26 mb-0">100% Satisfaction</p>
                 </div>
-                <div class="d-flex gap-10 justify-content-center align-items-center">
+                <div class="d-flex align-items-center justify-content-center gap-10">
                     <img src="./assets/imgaes/svg/correct-img.svg" alt="verify-icon">
-                    <p class="font-family-primary fw-normal fs-base lh-26 color-orange mb-0">Accurate Testing</p>
+                    <p class="color-orange font-family-primary fs-base fw-normal lh-26 mb-0">Accurate Testing</p>
                 </div>
-                <div class="d-flex gap-10 justify-content-center align-items-center">
+                <div class="d-flex align-items-center justify-content-center gap-10">
                     <img src="./assets/imgaes/svg/correct-img.svg" alt="verify-icon">
-                    <p class="font-family-primary fw-normal fs-base lh-26 color-orange mb-0">Transparent Pricing</p>
+                    <p class="color-orange font-family-primary fs-base fw-normal lh-26 mb-0">Transparent Pricing</p>
                 </div>
             </div>
             <div class="d-flex justify-content-center">
-                <div class="big-box w-100 bg-orange">
-                    <h4 class="font-family-primary fw-bold fs-xl lh-43 text-white mb-sm-3 mb-2">Request A Quote</h4>
+                <div class="bg-orange w-100 big-box">
+                    <h4 class="text-white font-family-primary fs-xl fw-bold lh-43 mb-2 mb-sm-3">Request A Quote</h4>
                     <p
-                        class="font-family-primary fw-normal fs-base lh-26 font-size-14 text-white lh-sm-22 mb-4 max-w-590">
+                        class="text-white font-family-primary font-size-14 fs-base fw-normal lh-26 lh-sm-22 max-w-590 mb-4">
                         Complete control over products allow us to our customers the best quality<br>
                         prices and services. We take great pride in everything that we do in Jhontraktor</p>
                     <div class="d-sm-flex gap-3 mb-3">
                         <input
-                            class="input-common-class w-100 border-0 p-3 mb-3 mb-sm-0 font-family-primary fw-medium fs-base lh-26 color-black-sheep"
+                            class="color-black-sheep input-common-class border-0 p-3 w-100 font-family-primary fs-base fw-medium lh-26 mb-3 mb-sm-0"
                             type="text" placeholder="Name">
                         <input
-                            class="input-common-class w-100 border-0 p-3 font-family-primary fw-medium fs-base lh-26 color-black-sheep"
+                            class="color-black-sheep input-common-class border-0 p-3 w-100 font-family-primary fs-base fw-medium lh-26"
                             type="tel" placeholder="Phone">
                     </div>
                     <input
-                        class="input-common-class px-3 px-sm-4 py-3 w-100 border-0 mb-3 font-family-primary fw-medium fs-base lh-26 color-black-sheep"
+                        class="color-black-sheep input-common-class border-0 w-100 font-family-primary fs-base fw-medium lh-26 mb-3 px-3 px-sm-4 py-3"
                         type="email" placeholder="Email Address">
                     <textarea
-                        class="textarea p-3 w-100 mb-sm-4 mb-3 border-0 font-family-primary fw-medium fs-base lh-26 color-black-sheep"
+                        class="color-black-sheep border-0 p-3 w-100 font-family-primary fs-base fw-medium lh-26 mb-3 mb-sm-4 textarea"
                         placeholder="Message"></textarea>
                     <button
-                        class="send-btn font-family-primary fw-semibold lh-base text-white border-0 d-flex gap-3 align-items-center">Send
+                        class="d-flex align-items-center border-0 text-white font-family-primary fw-semibold gap-3 lh-base send-btn">Send
                         Message
                         <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -318,13 +331,13 @@
         </div>
     </section>
     <!--***** footer *****-->
-    <footer class="pt-46 bg-black-sheep">
+    <footer class="bg-black-sheep pt-46">
         <div class="container max-w-1140 pb-46">
             <div class="row">
-                <div class="col-lg-6 col-12 pb-sm-5 pb-lg-0 pb-0">
-                    <img src="./assets/imgaes/svg/nav-logo.svg" alt="" class="mb-sm-4 mb-3">
-                    <div class="d-flex flex-lg-column flex-column flex-sm-row justify-content-between">
-                        <p class="font-family-primary fw-normal fs-sm lh-26 text-white max-w-367 mb-42">Grondwerken
+                <div class="col-12 col-lg-6 pb-0 pb-lg-0 pb-sm-5">
+                    <img src="./assets/imgaes/svg/nav-logo.svg" alt="" class="mb-3 mb-sm-4">
+                    <div class="d-flex flex-column flex-lg-column flex-sm-row justify-content-between">
+                        <p class="text-white font-family-primary fs-sm fw-normal lh-26 max-w-367 mb-42">Grondwerken
                             Pieters – Your reliable partner for all your earthworks and infrastructure projects.
                         </p>
                         <div class="d-flex align-items-center gap-4 mb-4 mb-sm-0">
@@ -344,38 +357,38 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12">
+                <div class="col-12 col-lg-6">
                     <div class="row">
-                        <div class="col-sm-5 col-12 d-flex  justify-content-start justify-content-lg-center">
+                        <div class="col-12 col-sm-5 d-flex justify-content-lg-center justify-content-start">
                             <ul
-                                class="list-unstyled mb-4 mb-sm-0 flex-row flex-sm-column d-flex gap-4 gap-sm-0 flex-wrap">
+                                class="d-flex flex-row flex-sm-column flex-wrap list-unstyled gap-4 gap-sm-0 mb-4 mb-sm-0">
                                 <li
-                                    class="font-family-primary fw-bold fs-md lh-100 color-orange mb-3 d-none d-md-block">
+                                    class="color-orange d-md-block d-none font-family-primary fs-md fw-bold lh-100 mb-3">
                                     Quick Links</li>
                                 <li class="mb-sm-3"><a
-                                        class="text-decoration-none footer-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                        class="text-decoration-none text-white font-family-primary footer-link fs-sm fw-normal lh-100"
                                         href="">Home</a></li>
                                 <li class="mb-sm-3"><a
-                                        class="text-decoration-none footer-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                        class="text-decoration-none text-white font-family-primary footer-link fs-sm fw-normal lh-100"
                                         href="">Groundwork</a></li>
                                 <li class="mb-sm-3"><a
-                                        class="text-decoration-none footer-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                        class="text-decoration-none text-white font-family-primary footer-link fs-sm fw-normal lh-100"
                                         href="">Transport</a></li>
                                 <li class="mb-sm-3"><a
-                                        class="text-decoration-none footer-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                        class="text-decoration-none text-white font-family-primary footer-link fs-sm fw-normal lh-100"
                                         href="">About</a></li>
-                                <li><a class="text-decoration-none footer-link font-family-primary fw-normal fs-sm lh-100 text-white"
+                                <li><a class="text-decoration-none text-white font-family-primary footer-link fs-sm fw-normal lh-100"
                                         href="">Contact</a></li>
                             </ul>
                         </div>
-                        <div class="col-sm-7 col-12 d-flex  justify-content-start justify-content-md-end">
+                        <div class="col-12 col-sm-7 d-flex justify-content-md-end justify-content-start">
                             <ul class="list-unstyled mb-0">
                                 <li
-                                    class="font-family-primary fw-bold fs-md lh-100 color-orange mb-3 d-none d-md-block">
+                                    class="color-orange d-md-block d-none font-family-primary fs-md fw-bold lh-100 mb-3">
                                     Contact Info</li>
                                 <li class="mb-3">
                                     <a href="tel:+1234567890"
-                                        class="text-decoration-none d-flex align-items-center gap-3 footer-link-2">
+                                        class="d-flex align-items-center text-decoration-none footer-link-2 gap-3">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -383,13 +396,13 @@
                                                 fill="white" />
                                         </svg>
                                         <span
-                                            class="font-family-primary fw-normal fs-extra-small footer-link-2 lh-100 text-white ">+1
+                                            class="text-white font-family-primary footer-link-2 fs-extra-small fw-normal lh-100">+1
                                             234 567890</span>
                                     </a>
                                 </li>
                                 <li class="mb-3">
                                     <a href="mailto:mail@pietersbvgrondwerken.com"
-                                        class="text-decoration-none d-flex align-items-center gap-3 footer-link-2">
+                                        class="d-flex align-items-center text-decoration-none footer-link-2 gap-3">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -397,12 +410,12 @@
                                                 fill="white" />
                                         </svg>
                                         <span
-                                            class="font-family-primary fw-normal fs-extra-small footer-link-2 lh-100 text-white">mail@pietersbvgrondwerken.com</span>
+                                            class="text-white font-family-primary footer-link-2 fs-extra-small fw-normal lh-100">mail@pietersbvgrondwerken.com</span>
                                     </a>
                                 </li>
                                 <li class="mb-3">
                                     <a href=""
-                                        class="text-decoration-none d-flex align-items-center gap-3 footer-link-2">
+                                        class="d-flex align-items-center text-decoration-none footer-link-2 gap-3">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -410,13 +423,13 @@
                                                 fill="white" />
                                         </svg>
                                         <span
-                                            class="font-family-primary fw-normal footer-link-2 fs-extra-small lh-100 text-white ">West
+                                            class="text-white font-family-primary footer-link-2 fs-extra-small fw-normal lh-100">West
                                             Avenue, Square Park Finland</span>
                                     </a>
                                 </li>
                                 <li class="mb-3">
                                     <a href=""
-                                        class="text-decoration-none d-flex align-items-center gap-3 footer-link-2">
+                                        class="d-flex align-items-center text-decoration-none footer-link-2 gap-3">
                                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -424,7 +437,7 @@
                                                 fill="white" />
                                         </svg>
                                         <span
-                                            class="font-family-primary fw-normal fs-extra-small footer-link-2 lh-100 text-white ">Monday
+                                            class="text-white font-family-primary footer-link-2 fs-extra-small fw-normal lh-100">Monday
                                             - Friday <br> <span class="lh-28">09:00 AM - 06:00 PM </span></span>
                                     </a>
                                 </li>
@@ -434,8 +447,8 @@
                 </div>
             </div>
         </div>
-        <div class="footer-line w-100"></div>
-        <p class="font-family-primary fw-normal d-flex justify-content-center py-32 fs-base lh-26 text-white mb-0">©
+        <div class="w-100 footer-line"></div>
+        <p class="d-flex justify-content-center text-white font-family-primary fs-base fw-normal lh-26 mb-0 py-32">©
             2025 Grondwerken Pieters. All rights
             reserved.</p>
     </footer>
