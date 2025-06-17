@@ -5,3 +5,11 @@ const navbarbtn = () => {
     document.getElementById("rotates-2").classList.toggle("color-oranges")
     document.body.classList.toggle("overflow-hidden")
 }
+
+const lenis = new Lenis({
+    autoRaf: true,
+});
+
+lenis.on('scroll', (e) => {
+    console.log(e);
+});
