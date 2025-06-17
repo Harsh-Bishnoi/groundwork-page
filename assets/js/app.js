@@ -9,6 +9,7 @@ const navbarbtn = () => {
 const lenis = new Lenis({
     autoRaf: true,
     duration: 7,
+    lerp: 0.5,
 });
 
 lenis.on('scroll', (e) => {
